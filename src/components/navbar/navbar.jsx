@@ -1,28 +1,46 @@
-import React from "react";
+import React, { useState } from "react";
 import Styles from "./navbar.module.css"
 
 const Navbar = () => {
+      const [menuOpen, setMenuOpen] = useState(false);
+      const [activeSubMenu, setActiveSubMenu] = useState(null);
+      
+      const toggleMenu = () => {
+        setMenuOpen(!menuOpen);
+      };
+      
       return (
             <header className={Styles.header}>
+
+                  <div 
+                        className={Styles.menuIcon}
+                        onClick={toggleMenu}>
+                        <i class="ri-menu-line"></i> <span>Menu</span>
+                  
+                        <div className={Styles.search}>
+                              <a href="#" id="magnifyingGlass"><i class="ri-search-2-line"></i></a>
+                              <input type="text" id="magnifyingGlassInput" placeholder="Pesquisar" />
+                        </div>
+
+                  </div>
+
+                  
+
                   <nav className={Styles.navbar}>
-                        <ul>
-                              <li>Início</li>
-                              <li>Hidratação e Cuidados</li>
-                              <li>Maquiagem</li>
-                              <li>Acessórios</li>
+                        <span>Menu</span>
+                        
+                        <ul className={Styles.menu}>
+                              <li><a href="#">Hidratação e Cuidados</a></li>
+                              <li><a href="#">Maquiagem</a></li>
+                              <li><a href="#">Acessórios</a></li>
                         </ul>
 
                         <div className={Styles.institutional}>
-                        <a href="#">Conta</a>
-                        <a href="#">Fale conosco</a>
+                              <a href="/conta"><i class="ri-user-line"></i>
+      Conta</a>
+                              <a href="/contato"><i class="ri-chat-1-line"></i>Fale conosco</a>
                         </div>
                   </nav>
-
-                  <div className={Styles.search}>
-
-                        <a href="#" id="magnifyingGlass"><i class="ri-search-2-line"></i></a>
-                        <input type="text" id="magnifyingGlassInput" placeholder="Pesquisar" />
-                  </div>
 
                   <a href="/">
                         <img 

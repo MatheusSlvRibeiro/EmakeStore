@@ -7,39 +7,82 @@
       justify-content: space-between;
       align-items: center;
       height: 5rem;
-      background-color: hsla(0, 100%, 99%, 0.8);
+      background-color: var(--background-color);
+}
+.menuIcon{
+      cursor: pointer;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding-left: 1.5rem;
+      font-size: 1.3rem;
+}
+.menuIcon i{
+      padding-right: 0.4rem;
 }
 
 .navbar{
-      display: none;      
+      display: none;
+      position: fixed;
+      z-index: 1000;
+      background-color: var(--background-color);
+      top: 0;
+      padding: 1.5rem;
+      width: 30%;
+      height: 100vw;
+      justify-content: center;
+}
+.navbar span{
+      display: flex;
+      padding-bottom: 0.5rem;
+      font-weight: 400;
+      font-size: 1.3rem;
+}
+
+.menu{
+      padding-bottom: 0.5rem;
+}
+.menu li{
+      padding: 0.5rem 0 0.5rem 0;
 }
 
 .institutional{
+      position: fixed;
+      bottom: 0;
+      margin-bottom: 1rem;    
       display: flex;
       flex-direction: column;
 }
 .institutional a{
+      display: flex;
+      align-items: center;
+      padding-bottom: 1rem;
       color: var(--text-color);
+}
+.institutional i{
+      padding-right: 0.4rem;
 }
 
 .search{
-      margin: 1rem;
+      margin: 1rem 1.5rem;
       display: flex;
       flex-direction: row;
       align-items: center;
-      border: 1px solid var(--text-color);
-      border-radius: 0.5em;
+      border: 1px solid #696969;
+      border-radius: 0.3rem;
 }
 .search a{
-      padding: 0.6rem;
+      padding: 0.1rem 0.6rem;
       color: var(--text-color);
 }
 .search input{
+      background-color: var(--background-color);
       border: none;
       outline: none;
 }
 
 .logo{
+      transform: translateX(-35%);
       width: 12rem;      
 }
 

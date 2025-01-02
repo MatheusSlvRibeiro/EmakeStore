@@ -9,7 +9,7 @@ const Footer = () => {
                         <div className={styles.contact}>
                               <span className={styles.title}>Serviço ao cliente</span>
                               <p>Serviço de atendimento ao consumidor Emake:</p>
-                              <p>WhatsApp <a href="+55 11 91234-5678">+55 11 91234-5678</a></p>
+                              <p>WhatsApp <a href="https://w.app/QE7pj9" target="_blank" rel="noopener noreferrer">+55 11 99738-8538</a></p>
                               <p>Segunda a sexta, exceto feriados 9h - 18h</p>
                         </div>
 
@@ -26,15 +26,15 @@ const Footer = () => {
                               <span className={styles.title}>Siga-nos</span>
 
                               <div className={styles.socialMediaIcons}>
-                                    <a href="https://www.instagram.com/emakeloja/">
+                                    <a href="https://www.instagram.com/emakeloja/"  target="_blank" rel="noopener noreferrer">
                                           <i class="ri-instagram-line"></i>
                                     </a>
 
-                                    <a href="https://www.facebook.com/">
+                                    <a href="https://www.facebook.com/"  target="_blank" rel="noopener noreferrer">
                                           <i class="ri-facebook-line"></i>
                                     </a>
                                     
-                                    <a href="https://x.com/?lang=en&mx=2">
+                                    <a href="https://x.com/?lang=en&mx=2" target="_blank" rel="noopener noreferrer">
                                           <i class="ri-twitter-line"></i>
                                     </a>
                               </div>
