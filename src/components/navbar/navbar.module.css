@@ -1,0 +1,66 @@
+.header{
+      position: absolute;
+      z-index: var(--z-modal);
+      display: flex;
+      width: 100%;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      height: 5rem;
+      background-color: hsla(0, 100%, 99%, 0.8);
+}
+
+.navbar{
+      display: none;      
+}
+
+.institutional{
+      display: flex;
+      flex-direction: column;
+}
+.institutional a{
+      color: var(--text-color);
+}
+
+.search{
+      margin: 1rem;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      border: 1px solid var(--text-color);
+      border-radius: 0.5em;
+}
+.search a{
+      padding: 0.6rem;
+      color: var(--text-color);
+}
+.search input{
+      border: none;
+      outline: none;
+}
+
+.logo{
+      width: 12rem;      
+}
+
+.ulBarIcons{
+      font-size: var(--normal-font-size);
+      padding: 1rem;
+      align-items: center;
+      display: flex;
+      flex-direction: row;
+}
+.ulBarIcons a{
+      padding: 0.7rem;
+      display: flex;
+      flex-direction: row;
+}
+.ulBarIcons i{
+      color: var(--text-color);
+      padding: 0.2rem;
+      align-items: center;
+      display: flex;
+}
+.ulBarIcons span{
+      padding: 0.2rem;
+}

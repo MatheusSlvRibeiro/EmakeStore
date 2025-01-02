@@ -1,0 +1,64 @@
+.footerContainer{
+      display: flex;
+      flex-direction: Column;    
+}
+
+.footerTop{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+}
+
+.title{
+      font-weight: 400;
+      font-size: var(--h3-font-size);
+      text-transform: uppercase;
+      margin-bottom: 0.4rem;
+}
+
+.contact, 
+.newsletter, 
+.socialMedia {
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+}
+
+.contact p {
+      color: #696969;
+      font-size: 1rem;
+      padding: 0.1rem;     
+}
+
+.newsletter{
+      text-align: center;
+}
+.newsletterSpan{
+      padding-right: 0.4rem;
+}
+.newsletter p {
+      font-size: 1rem;
+}
+.newsletter button{
+      font-family: 'Poppins', sans-serif;
+      padding: 0.8rem;
+      margin: 0.6rem 8rem 0.2rem 8rem;
+      cursor: pointer;
+      border: 0.10rem solid #696969;
+      border-radius: 0.5rem;
+}
+
+.socialMedia{
+      display: flex;
+      flex-direction: column;
+}
+.socialMediaIcons a{
+      color: #696969;
+      font-size: 2rem;
+      padding: 0.2rem;
+}
+
+.footerBottom{
+      text-align: center;
+      padding: 1rem;
+}
