@@ -1,0 +1,122 @@
+.navbar{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+}
+.throwBackAnchor{
+      display: flex;
+      position: absolute;
+      left: 0;
+      padding: 0.2rem;
+      margin-left: 1rem;
+      font-size: 1rem;
+      align-items: center;
+}
+.throwBackAnchor i{
+      font-size: 1.2rem;
+}
+
+.logo{
+      transform: translateX(0%);
+      position: relative;
+      display: flex;
+      width: 12rem;      
+}
+
+.cartSection{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      margin: 2rem;
+}
+
+.cart{
+      border-radius: 0.4rem;
+      margin-right: 1rem;
+      padding: 1rem;
+      width: 45rem;
+      height: 30rem;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      background-color: #FFF;
+}
+.cart i{
+      font-size: 2rem;
+      color: #696969;
+      padding: 0.5rem;
+}
+.cart span{
+      padding: 0.3rem;
+}
+.cart a{
+      cursor: pointer;
+      width: 15rem;
+      margin: 0.5rem;
+      padding: 1rem;
+      background-color: #696969;
+      color: #FFF;
+      border: none;
+      border-radius: 0.4rem;
+}
+
+.aside{
+      width: 35rem;
+      height: 20rem;
+      background-color: #FFF;
+      border-radius: 0.4rem;
+      padding: 2rem;
+}
+.contact span{
+      text-transform: uppercase;
+      display: flex;
+      font-size: 1.2rem;
+      padding-bottom: 1rem;
+      margin-bottom: 0.6rem;
+      border-bottom: 1px solid #cacaca;
+}
+.contact p{
+      padding: 0.1rem;
+      font-size: 1.1rem;
+}
+.contact a{
+      text-decoration: underline;
+}
+
+.servicos{
+      padding: 1rem 0;
+      display: flex;
+      flex-direction: row;
+}
+.servicos div{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      padding: 1rem;
+}
+.servicos i{
+      font-size: 2.3rem;
+      color: #696969;
+}
+
+.footer{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      text-align: center;
+      align-items: center;
+      padding: 1rem;
+}
+
+.footer div a{
+      font-size: 0.8rem;
+}
+.copyright{
+      font-size: 0.8rem;
+}

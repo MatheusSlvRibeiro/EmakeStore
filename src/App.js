@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-d
 import './App.css';
 
 import Home from './pages/home/home';
+import Cart from './pages/cart/cart'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='*' element={<Navigate to='/'/>}/>
+        <Route path='/cart' element={<Cart/>}/>
       </Routes>
     </Router>
   );
