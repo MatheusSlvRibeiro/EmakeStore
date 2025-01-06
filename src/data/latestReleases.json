@@ -1,0 +1,58 @@
+{
+      "products": [
+      {
+            "Cód": "0001",
+            "name": "Esponja pedro ventura",
+            "brand": "Pedro Ventura",
+            "description": "Obtenha uma aplicação impecável com a nossa Esponja de Maquiagem, projetada para proporcionar um acabamento profissional e uniforme. Feita com material macio e durável, sua textura permite que você aplique bases, corretivos e pós com precisão e sem marcas.",
+            "price": 19.90,
+            "img": "/images/latest/Esponja.jpeg",
+            "alt": "imagem de Esponja de maquiagem"
+      },
+      {
+            "cod": "0002",
+            "name": "Esponja pedro ventura 2025",
+            "brand": "Pedro Ventura",
+            "description": "Obtenha uma aplicação impecável com a nossa Esponja de Maquiagem, projetada para proporcionar um acabamento profissional e uniforme. Feita com material macio e durável, sua textura permite que você aplique bases, corretivos e pós com precisão e sem marcas.",
+            "price": 39.90,
+            "img": "/images/latest/Esponja2.jpeg",
+            "alt": "Imagem Esponja de maquiagem"
+      },
+      {
+            "cod": "0003",
+            "name": "Estojo para sobrancelha",
+            "brand": "Bellafemme",
+            "description": "Realce a beleza natural das suas sobrancelhas com o nosso Estojo de Sobrancelha, um kit completo para definir, preencher e estilizar com perfeição. Ele contém tudo o que você precisa para criar desde um look natural até sobrancelhas mais marcantes e dramáticas.",
+            "price": 90.00,
+            "img": "/images/latest/estojoSobrancelha.jpeg",
+            "alt": "Imagem de estojo para sobrancelha"
+      },
+      {
+            "cod": "0004",
+            "name": "Paleta de Sombras",
+            "brand": "Matte Metallic",
+            "description": "A Paleta de sombras Matte Metallic da Vivai contém 16 cores ideais para qualquer ocasião, variando de cores mattes para cintilantes. Sombras com longa durabilidade e alta pigmentação irão deixar sua make maravilhosa e de pé o dia todo sem nenhuma preocupação.",
+            "price": 200.00,
+            "img": "/images/latest/paletaDeSombras.jpeg",
+            "alt": "Imagem demonstrativa de paleta de sombras"
+      },
+      {
+            "cod": "0005",
+            "name": "Max volume máscara de cílios",
+            "brand": "Mahav",
+            "description": "A Máscara de Cílios Curva e Define Max Volume Mahav é a solução completa para quem deseja cílios curvados, volumosos e definidos. Enriquecida com ingredientes hidratantes e emolientes que cuidam dos pelos enquanto auxiliam na aplicação e deslizamento do produto. ",
+            "price": 12.90,
+            "img": "/images/latest/maxVolumeMahav.jpeg",
+            "alt": "Imagem ilustrativa de máscara de cílios curva e define max volume Mahav."
+      },
+      {
+            "cod": "0006",
+            "name": "Máscara facial Vitamina C e Colágeno Max love",
+            "brand": "Max love",
+            "description": "A Máscara Facial Vitamina C e Colágeno Max Love limpa profundamente e ajuda a remover as impurezas dos poros. Deixa a pele firme e auxilia na hidratação.",
+            "price": 18.90,
+            "img": "/images/latest/hidratanteFacialMaxLove.jpg",
+            "alt": "Imagem ilustrativa Hidratante facial Max love "
+      }
+]
+}

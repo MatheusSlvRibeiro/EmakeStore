@@ -8,6 +8,7 @@ export default function SimpleSlider() {
   
   return (
     <Swiper
+      className={styles.Slider}
       modules={[Navigation, Pagination, Autoplay]}
       pagination={{clickable: true}}
       autoplay={{

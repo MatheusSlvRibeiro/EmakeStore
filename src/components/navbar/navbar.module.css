@@ -1,6 +1,7 @@
 .header{
-      position: absolute;
-      z-index: var(--z-modal);
+      padding: 0 1.5rem;
+      position: fixed;
+      z-index: 900;
       display: flex;
       width: 100%;
       flex-direction: row;
@@ -15,32 +16,45 @@
       flex-direction: row;
       align-items: center;
       padding-left: 1.5rem;
-      font-size: 1.3rem;
+      font-size: 1rem;
 }
 .menuIcon i{
       padding-right: 0.4rem;
 }
 
 .navbar{
-      display: none;
       position: fixed;
-      z-index: 1000;
+      z-index: 2000;
       background-color: var(--background-color);
       top: 0;
+      left: -100%;
       padding: 1.5rem;
       width: 30%;
-      height: 100vw;
-      justify-content: center;
+      height: 100vh;
+      transition: left 0.3s ease;
+}
+.navbar.open {
+      left: 0;
 }
 .navbar span{
       display: flex;
       padding-bottom: 0.5rem;
       font-weight: 400;
-      font-size: 1.3rem;
+      font-size: 1.5rem;
 }
-
+.menuTitle{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      text-align: center;
+      justify-content: space-between;
+}
+.menuTitle i{
+      font-size: 1rem;
+      cursor: pointer;
+}
 .menu{
-      padding-bottom: 0.5rem;
+      padding-top: 1rem;
 }
 .menu li{
       padding: 0.5rem 0 0.5rem 0;
@@ -68,8 +82,8 @@
       display: flex;
       flex-direction: row;
       align-items: center;
-      border: 1px solid #696969;
-      border-radius: 0.3rem;
+      border: 1px solid #afafaf;
+      border-radius: 0.2rem;
 }
 .search a{
       padding: 0.1rem 0.6rem;

@@ -1,4 +1,5 @@
 .footerContainer{
+      margin: 0 3rem;
       display: flex;
       flex-direction: Column;    
 }
@@ -19,7 +20,7 @@
 .contact, 
 .newsletter, 
 .socialMedia {
-      padding: 1.5rem;
+      padding: 1.5rem 0;
       display: flex;
       flex-direction: column;
 }

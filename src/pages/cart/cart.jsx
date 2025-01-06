@@ -3,7 +3,7 @@ import styles from "./cart.module.css"
 
 const Cart = () => {
       return (
-            <article>
+            <article className="">
                   <nav className={styles.navbar}>
                         <a href="/" className={styles.throwBackAnchor}>
                               <i class="ri-arrow-left-line"></i>
@@ -47,8 +47,8 @@ const Cart = () => {
                                     </div>
 
                                     <div>
-                                          <i class="ri-arrow-left-right-line"></i>
-                                          <p>Devoluções e trocas</p>
+                                          <i class="ri-bank-card-line"></i>
+                                          <p>Pague em até 3x</p>
                                     </div>
 
                                     <div> 
