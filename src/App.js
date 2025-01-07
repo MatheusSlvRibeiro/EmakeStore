@@ -14,7 +14,7 @@ function App() {
         <Route path='/' element={<Home/>}/>
         <Route path='*' element={<Navigate to='/'/>}/>
         <Route path='/cart' element={<Cart/>}/>
-        <Route path="/produto/:cod" element={<Product/>}/>
+        <Route path="/produtos/:cod" element={<Product/>}/>
       </Routes>
     </Router>
   );

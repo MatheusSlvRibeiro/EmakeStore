@@ -1,0 +1,99 @@
+.productSection{
+      padding: 6rem 3rem 0 3rem;
+      justify-content: space-evenly;    
+      display: flex;
+      flex-direction: row;
+}
+
+.productSection main{
+      width: 50%;
+}
+
+.productImage{
+      display: flex;
+      justify-content: center;
+      margin: 0 auto;
+      width: 30rem;
+}
+
+.aside{
+      background-color: #FFF;
+      border-radius: 0.3rem;
+      display: flex;
+      flex-direction: column;
+      width: 30%;
+      padding: 1rem;
+}
+
+.asideInfo{
+      padding: 1rem 0;
+      display: flex;
+      flex-direction: column;
+}
+
+.productTitle{
+      font-size: 1.5rem;
+      font-weight: 400;
+      color: var(--text-color);
+}
+
+.productPrice{
+      font-weight: 500;
+      color: #696969;
+}
+
+.productDescription{
+      padding: 1rem 0;
+      font-size: 0.9rem;
+}
+
+.aside .buttons{
+      justify-content: center;
+      display: flex;
+      flex-direction: row;
+}
+
+.favButton{
+      cursor: pointer;
+      border: none;
+      font-size: 1.6rem;
+      color: #696969;
+}
+
+.buyButton{
+      font-weight: 400;
+      cursor: pointer;
+      border-radius: 0.3rem;
+      border: none;
+      outline: none;
+      background-color: #696969;
+      color: #FFF;
+      padding: 1rem;
+      width: 12rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 1.5rem;
+}
+
+.buyButton i{
+      padding-right: 0.5rem;
+}
+
+.socialIcons{
+      display: flex;
+      flex-direction: row;
+      margin: 1.5rem 0 0 0;
+      align-items: center;
+}
+
+.socialIcons p{
+      padding: 0 1rem;
+}
+
+.socialIcons i{
+      cursor: pointer;
+      font-size: 1.5rem;
+      padding: 0 0.3rem;
+      color: #696969;
+}

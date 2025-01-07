@@ -37,7 +37,7 @@ return (
               key={index} 
               className={styles.productCard}
               onClick={
-                () => navigate(`/produto/${item.cod}`)}>
+                () => navigate(`/produtos/${item.cod}`)}>
               <div className={styles.cardImage}>
                 <div className={styles.favIcon}>
                   <i className="ri-heart-line"></i>
