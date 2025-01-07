@@ -1,7 +1,7 @@
 {
       "products": [
       {
-            "Cód": "0001",
+            "cod": "0001",
             "name": "Esponja pedro ventura",
             "brand": "Pedro Ventura",
             "description": "Obtenha uma aplicação impecável com a nossa Esponja de Maquiagem, projetada para proporcionar um acabamento profissional e uniforme. Feita com material macio e durável, sua textura permite que você aplique bases, corretivos e pós com precisão e sem marcas.",
@@ -52,7 +52,7 @@
             "description": "A Máscara Facial Vitamina C e Colágeno Max Love limpa profundamente e ajuda a remover as impurezas dos poros. Deixa a pele firme e auxilia na hidratação.",
             "price": 18.90,
             "img": "/images/latest/hidratanteFacialMaxLove.jpg",
-            "alt": "Imagem ilustrativa Hidratante facial Max love "
+            "alt": "Imagem ilustrativa Hidratante facial Max love"
       }
 ]
 }

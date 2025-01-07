@@ -5,6 +5,7 @@ import './App.css';
 
 import Home from './pages/home/home';
 import Cart from './pages/cart/cart'
+import Product from './pages/product/product';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path='/' element={<Home/>}/>
         <Route path='*' element={<Navigate to='/'/>}/>
         <Route path='/cart' element={<Cart/>}/>
+        <Route path="/produto/:cod" element={<Product/>}/>
       </Routes>
     </Router>
   );

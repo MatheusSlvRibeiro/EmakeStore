@@ -21,12 +21,14 @@
 
 .cardImage{
       display: flex;
-      position: relative;
       justify-content: center;
+      position: relative;
 }
 
 .favIcon{
       position: absolute;
+      left: 2rem;
+      margin-left: 1.5rem;
       padding: .5rem;
       font-size: 1.5rem;
       color: #3d3d3d;
@@ -34,8 +36,6 @@
 
 
 .productImage{
-      object-fit: cover;
-      display: flex;
       width: 18rem;
 }
 
@@ -46,6 +46,7 @@
       text-align: center;
 }
 .productName{
+      margin: 0 3rem;
       font-weight: 400;
 }
 .productPrice{
@@ -54,22 +55,34 @@
 .productInfo p{
       font-size: 0.8rem;
 }
-
-.slick-prev, .slick-next {
-    z-index: 2000;
-    background-color: red;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: none;
-    border: none;
-    cursor: pointer;
+/* Estilização dos botões do Swiper */
+.sectionSlider .swiper-button-next,
+.sectionSlider .swiper-button-prev {
+  color: #fc0000; /* Cor do ícone */
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo com transparência */
+  border-radius: 50%; /* Deixa os botões arredondados */
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.slick-prev {
-    left: -3rem; 
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background-color: rgba(0, 0, 0, 0.8); /* Fundo mais escuro no hover */
 }
 
-.slick-next {
-    right: -3rem;
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 18px; /* Tamanho do ícone */
+}
+
+/* Caso deseje reposicionar os botões */
+.swiper-button-next {
+  right: 10px; /* Ajusta a posição horizontal */
+}
+
+.swiper-button-prev {
+  left: 10px; /* Ajusta a posição horizontal */
 }

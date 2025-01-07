@@ -6,12 +6,12 @@ import ProductCard from "../../components/productCard/productCard";
 
 const Home = () => {
     return (
-        <body>
+        <div>
             <Navbar/>
             <SimpleSlider />
             <ProductCard />
             <Footer/>
-        </body>
+        </div>
     )
 };
 
