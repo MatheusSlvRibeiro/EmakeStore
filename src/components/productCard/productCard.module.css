@@ -27,8 +27,7 @@
 
 .favIcon{
       position: absolute;
-      left: 2rem;
-      margin-left: 1.5rem;
+      left: 1rem;
       padding: .5rem;
       font-size: 1.5rem;
       color: #3d3d3d;
@@ -46,7 +45,7 @@
       text-align: center;
 }
 .productName{
-      margin: 0 3rem;
+      margin: 0 1.5rem;
       font-weight: 400;
 }
 .productPrice{
@@ -54,35 +53,4 @@
 }
 .productInfo p{
       font-size: 0.8rem;
-}
-/* Estilização dos botões do Swiper */
-.sectionSlider .swiper-button-next,
-.sectionSlider .swiper-button-prev {
-  color: #fc0000; /* Cor do ícone */
-  background-color: rgba(0, 0, 0, 0.5); /* Fundo com transparência */
-  border-radius: 50%; /* Deixa os botões arredondados */
-  width: 40px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.swiper-button-next:hover,
-.swiper-button-prev:hover {
-  background-color: rgba(0, 0, 0, 0.8); /* Fundo mais escuro no hover */
-}
-
-.swiper-button-next::after,
-.swiper-button-prev::after {
-  font-size: 18px; /* Tamanho do ícone */
-}
-
-/* Caso deseje reposicionar os botões */
-.swiper-button-next {
-  right: 10px; /* Ajusta a posição horizontal */
-}
-
-.swiper-button-prev {
-  left: 10px; /* Ajusta a posição horizontal */
 }

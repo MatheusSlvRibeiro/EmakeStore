@@ -5,16 +5,29 @@ import { Navigation, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import styles from "./productCard.module.css"
-import latestReleases from "../../data/latestReleases.json"
+import lancamentos from "../../data/latestReleases.json"
+import maquiagem from "../../data/maquiagem.json"
+import hidratacao from "../../data/hidratacao.json"
 
-
-const ProductCard = () => {
-      const { products } = latestReleases;
+const ProductCard = ({ produtos }) => {
       const navigate = useNavigate();
 
+      const productData = {
+        lancamentos,
+        maquiagem,
+        hidratacao,
+      };
+
+      const categoryTitle = {
+        lancamentos: "Últimos lançamentos",
+        maquiagem: "Maquiagem",
+        hidratacao: "Hidratação e Cuidados",
+      }[produtos] || "Produtos";
+
+      const products = productData[produtos]?.products || [];
 return (
     <section className={styles.sectionContainer}>
-      <h3 className={styles.sectionTitle}>Últimos Lançamentos</h3>
+      <h3 className={styles.sectionTitle}>{categoryTitle}</h3>
 
       <section>
         <Swiper

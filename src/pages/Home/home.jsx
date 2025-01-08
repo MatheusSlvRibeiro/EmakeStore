@@ -9,7 +9,8 @@ const Home = () => {
         <div>
             <Navbar/>
             <SimpleSlider />
-            <ProductCard />
+            <ProductCard produtos="lancamentos"/>
+            <ProductCard produtos="maquiagem"/>
             <Footer/>
         </div>
     )

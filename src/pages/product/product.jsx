@@ -72,7 +72,7 @@ const Product = () => {
 
                         </section>
                   
-                        <ProductCard />
+                        <ProductCard produtos="lancamentos"/>
 
 
                   <Footer />

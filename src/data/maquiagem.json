@@ -1,0 +1,67 @@
+{
+      "products": [
+      {
+            "cod": "0007",
+            "name": "Pore Expert Pré-maquiagem Facial",
+            "brand": "undefined",
+            "description": "Pore Expert Max Love é uma linha de primers faciais desenvolvida para minimizar a aparência dos poros e linhas finas antes da aplicação da maquiagem.",
+            "price": 10.00,
+            "img": "/images/maquiagem/poreExpert.jpeg",
+            "alt": "Imagem ilustrativa do produto"
+      },
+      {
+            "cod": "0008",
+            "name": "Estojo de Sobrancelhas",
+            "brand": "Bella Femme",
+            "description": "O Estojo de Sombras para Sobrancelhas Bella Femme é a solução perfeita para ter sobrancelhas naturalmente definidas e ajustadas ao seu tom de pele.",
+            "price": 25.00,
+            "img": "/images/maquiagem/estojoSobrancelha.jpeg",
+            "alt": "Imagem ilustrativa do produto"
+      },
+      {
+            "cod": "0009",
+            "name": "Paleta de Sombras",
+            "brand": "Matte metallic",
+            "description": "A Paleta de Sombras Matte Metaliic da Vivai possui tons matte e cintilantes de alta pigmentação e longa duração. Nessa apresentação o ostojo conta com 4 sombras cintilantes e 12 opacas.",
+            "price": 25.00,
+            "img": "/images/maquiagem/paletaDeSombras.jpeg",
+            "alt": "Imagem ilustrativa do produto"
+      },
+      {
+            "cod": "0010",
+            "name": "Alonga define",
+            "brand": "Max volume",
+            "description": "Máscara de Cílios Max Volume Mahav. Alonga, define e hidrata seus cílios com fórmula resistente à água e aplicação precisa.",
+            "price": 45.00,
+            "img": "/images/maquiagem/alongaDefine.jpeg",
+            "alt": "Imagem ilustrativa do produto"
+      },
+      {
+            "cod": "0011",
+            "name": "Delineador Líquido Preto",
+            "brand": "Max love",
+            "description": "O Delineador Líquido da Max love possui alta pigmentação e longa duração. Além de ser resistente à água, ele não borra e não transfere.",
+            "price": 145.00,
+            "img": "/images/maquiagem/delineadorLiquidoPreto.jpeg",
+            "alt": "Imagem ilustrativa do produto"
+      },
+      {
+            "cod": "0012",
+            "name": "Paleta de Iluminador Shinning",
+            "brand": "City girls",
+            "description": "O trio tem tons diferentes para te atender em diversos tipos de necessidades... Você pode usar nos pontos clássicos de iluminação do rosto e até mesmo aplicar nos olhos ou colo para um efeito mais iluminado ainda!",
+            "price": 345.00,
+            "img": "/images/maquiagem/iluminador.jpeg",
+            "alt": "Imagem ilustrativa do produto"
+      },
+      {
+            "cod": "0013",
+            "name": "Curva define cílios",
+            "brand": "Max Volume",
+            "description": "A Máscara de Cílios Max Volume Curva e Define da Mahav é um produto de maquiagem que visa dar volume, curvar e definir os cílios. Ela é composta por ingredientes hidratantes e emolientes, como manteiga de karité, óleo de argan, e pantenol, que ajudam a cuidar dos fios enquanto são aplicados",
+            "price": 345.00,
+            "img": "/images/maquiagem/maxVolumeMahav.jpeg",
+            "alt": "Imagem ilustrativa do produto"
+      }
+      ]
+}
