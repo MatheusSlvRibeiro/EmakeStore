@@ -6,6 +6,7 @@ import './App.css';
 import Home from './pages/home/home';
 import Cart from './pages/cart/cart'
 import Product from './pages/product/product';
+import Favorites from './pages/favorites/favorites';
 
 function App() {
   return (
@@ -13,8 +14,9 @@ function App() {
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='*' element={<Navigate to='/'/>}/>
-        <Route path='/cart' element={<Cart/>}/>
-        <Route path="/produtos/:cod" element={<Product/>}/>
+        <Route path='/sacola' element={<Cart/>}/>
+        <Route path='/conta/Favoritos' element={<Favorites/>}/>
+        <Route path="/produtos/:category/:cod" element={<Product/>}/>
       </Routes>
     </Router>
   );

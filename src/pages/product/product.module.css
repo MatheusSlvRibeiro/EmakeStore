@@ -66,7 +66,6 @@
       cursor: pointer;
       border-radius: 0.3rem;
       border: none;
-      outline: none;
       background-color: #696969;
       color: #FFF;
       padding: 1rem;
@@ -97,4 +96,25 @@
       font-size: 1.5rem;
       padding: 0 0.3rem;
       color: #696969;
+}
+
+.undefinedProduct{
+      width: 20rem;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+      padding: 1rem;   
+      background-color: #FFF;
+      border-radius: 0.5rem;
+}
+
+.undefinedProduct a{
+      margin: 0.8rem;
+      background-color: #696969;
+      color: #FFF;
+      padding: 0.5rem;
+      border-radius: 0.5rem;
 }

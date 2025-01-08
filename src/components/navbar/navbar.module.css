@@ -121,3 +121,9 @@
 .ulBarIcons span{
       padding: 0.2rem;
 }
+
+.favButton{
+      padding: 0;
+      margin: 0;
+      font-size: 1.4rem;
+}

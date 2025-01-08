@@ -50,7 +50,7 @@ return (
               key={index} 
               className={styles.productCard}
               onClick={
-                () => navigate(`/produtos/${item.cod}`)}>
+                () => navigate(`/produtos/${produtos}/${item.cod}`)}>
               <div className={styles.cardImage}>
                 <div className={styles.favIcon}>
                   <i className="ri-heart-line"></i>
@@ -64,8 +64,8 @@ return (
 
               <div className={styles.productInfo}>
                 <span className={styles.productName}>{item.name}</span>
+                <span className={styles.productBrand}>{item.brand}</span>
                 <h3 className={styles.productPrice}>R$ {item.price}</h3>
-                <p>Em até 2x sem juros no cartão</p>
               </div>
             </SwiperSlide>
           ))}

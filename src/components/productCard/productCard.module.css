@@ -48,6 +48,9 @@
       margin: 0 1.5rem;
       font-weight: 400;
 }
+.productBrand{
+      color: #696969;
+}
 .productPrice{
       font-weight: 600;
 }

@@ -2,8 +2,8 @@
       "products": [
       {
             "cod": "0001",
-            "name": "Esponja pedro ventura",
-            "brand": "Pedro Ventura",
+            "name": "Esponjas aplicadoras",
+            "brand": "Meily's",
             "description": "Obtenha uma aplicação impecável com a nossa Esponja de Maquiagem, projetada para proporcionar um acabamento profissional e uniforme. Feita com material macio e durável, sua textura permite que você aplique bases, corretivos e pós com precisão e sem marcas.",
             "price": 19.90,
             "img": "/images/latest/Esponja.jpeg",
@@ -11,8 +11,8 @@
       },
       {
             "cod": "0002",
-            "name": "Esponja pedro ventura 2025",
-            "brand": "Pedro Ventura",
+            "name": "Esponjas aplicadoras",
+            "brand": "Meily's",
             "description": "Obtenha uma aplicação impecável com a nossa Esponja de Maquiagem, projetada para proporcionar um acabamento profissional e uniforme. Feita com material macio e durável, sua textura permite que você aplique bases, corretivos e pós com precisão e sem marcas.",
             "price": 39.90,
             "img": "/images/latest/Esponja2.jpeg",

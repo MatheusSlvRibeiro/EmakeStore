@@ -2,29 +2,51 @@ import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import styles from "./product.module.css"
 
-import productsData from "../../data/latestReleases.json"
+import lancamentos from "../../data/latestReleases.json"
+import maquiagem from "../../data/maquiagem.json"
+import hidratacao from "../../data/hidratacao.json"
+
 import ProductCard from "../../components/productCard/productCard";
 
 import Navbar from "../../components/navbar/navbar"
 import Footer from "../../components/footer/footer"
 
 const Product = () => {
-      const { cod } = useParams();
+      const { cod, category } = useParams();
       const [ product, setProduct ] = useState(null);
       const [ loading, setLoading ] = useState(true);
 
+      const productData = {
+              lancamentos,
+              maquiagem,
+              hidratacao,
+            };
+
+      const categoryTitle = {
+              lancamentos: "Últimos lançamentos",
+              maquiagem: "Maquiagem",
+              hidratacao: "Hidratação e Cuidados",
+            }[category] || "Produtos";
+
       useEffect(() => {
-            const productData = productsData.products.find((item) => item.cod === cod);
-            setProduct(productData)
-            setLoading(false)
-      }, [cod]);
+            const products = productData[category]?.products || [];
+            const foundProduct = products.find((item) => item.cod === cod);
+            setProduct(foundProduct || null);
+            setLoading(false);
+      }, [category, cod]);
 
       if (loading){
             return <p>Carregando...</p>
       }
 
       if (!product) {
-            return <p>Produto não encontrado.</p>
+            return <article className={styles.undefinedProduct}>
+                        <p>Produto não encontrado.</p>
+                        <a
+                        href="/" 
+                        className={styles.throwBack}>Voltar</a>
+                  </article>
+
       }
 
       return(

@@ -1,5 +1,76 @@
 {
-      "produtos": [
-            
+      "products": [
+            {
+                  "cod": "0014",
+                  "name": "Água micelar",
+                  "brand": "Dermachem Laboratory",
+                  "description": "A Água Micelar com Ácido Hialurônico 10 em 1 Make Out Muito mais Dermachem Laboratory é diferenciado pois foi desenvolvida com ativos especiais e uma tecnologia inovada.",
+                  "price": 20.00,
+                  "img": "/images/hidratacaoEcuidados/aguamicelar.jpeg",
+                  "alt": "Imagem ilustrativa do produto" 
+            },
+            {
+                  "cod": "0015",
+                  "name": "Make Out Sabonete demaquilante pós maquiagem",
+                  "brand": "Dermachem Laboratory",
+                  "description": "O Sabonete Demaquilante Make Out Dermachem Laboratory foi desenvolvido com duas tecnologias de última geração que proporcionam uma remoção rápida e eficiente da maquiagem 3 em 1. Pode ser utilizado de três maneiras práticas: como demaquilante de banho, durante o banho; como demaquilante de lavabo, lavando o rosto na pia; e como demaquilante tradicional, usando com disco de algodão ou bastonetes. ",
+                  "price": 16.00,
+                  "img": "/images/hidratacaoEcuidados/makeOut.jpeg",
+                  "alt": "Imagem ilustrativa do produto" 
+            },
+            {
+                  "cod": "0016",
+                  "name": "Tônico Facial Rosa Mosqueta",
+                  "brand": "Mahav",
+                  "description": "Desenvolvido com Extrato de Rosa Mosqueta, que possui propriedades adstringentes e antioxidantes. Proporciona limpeza suave, removendo o excesso de oleosidade e poluição. Indicado para ser usado como o primeiro passo na rotina de cuidados faciais.",
+                  "price": 10.00,
+                  "img": "/images/hidratacaoEcuidados/tonicoFacial.jpeg",
+                  "alt": "Imagem ilustrativa do produto"
+            },
+            {
+                  "cod": "0017",
+                  "name": "Serum Facial Vitamina C",
+                  "brand": "Max Love",
+                  "description": "O Sérum Vitamina C 10 em 1 Max Love contém um blend de componentes antioxidantes e hidratantes, que auxiliam na hidratação, maciez e tonificação, proporcionando uma pele com aparência uniforme e fresca.",
+                  "price": 13.00,
+                  "img": "/images/hidratacaoEcuidados/serumFacial.jpeg",
+                  "alt": "Imagem ilustrativa do produto" 
+            },
+            {
+                  "cod": "0018",
+                  "name": "Serum Efeito Secativo",
+                  "brand": "Dermachem Laboratory",
+                  "description": "Sérum Efeito Secativo dermachem laboratory, age na redução da inflamação acneica, secagem das espinhas e prevenção do reaparecimento. COMPRAR",
+                  "price": 16.00,
+                  "img": "/images/hidratacaoEcuidados/Serum.jpeg",
+                  "alt": "Imagem ilustrativa do produto" 
+            },
+            {
+                  "cod": "0019",
+                  "name": "Creme Facial Rosa Mosqueta",
+                  "brand": "Max Love",
+                  "description": "O Creme Facial Rosa Mosqueta Max Love é o produto perfeito para quem busca uma pele bonita, hidratada e rejuvenescida. Desenvolvido com ingredientes naturais e tecnologia avançada, este creme é a escolha certa para quem deseja uma rotina de cuidados com a pele eficaz e prática.",
+                  "price": 7.99,
+                  "img": "/images/hidratacaoEcuidados/rosaMosqueta.jpg",
+                  "alt": "Imagem ilustrativa do produto" 
+            },
+            {
+                  "cod": "0020",
+                  "name": "Creme Facial Renovação Esfoliante",
+                  "brand": "Max love",
+                  "description": "O Creme Facial Renovação Esfoliante Max Love auxilia na hidratação e remoção de células mortas. Com os benefícios do óleo de rosa mosqueta e do extrato de calêndula, ajuda a formar um escudo protetor contra poluição. Hidrata e revitaliza a pele no dia a dia.",
+                  "price": 13.00,
+                  "img": "/images/hidratacaoEcuidados/renovacaoEsfoliador.jpeg",
+                  "alt": "Imagem ilustrativa do produto" 
+            },
+            {
+                  "cod": "0021",
+                  "name": "Creme Hidratante Facial Vitamina C e Colágeno",
+                  "brand": "Max Love",
+                  "description": "O Creme Hidratante Facial Vitamina C e Colágeno da Max Love é a solução ideal para manter sua pele hidratada, revitalizada e com aspecto mais jovem. Sua fórmula exclusiva, enriquecida com vitamina C e colágeno, proporciona diversos benefícios para a saúde da sua pele.",
+                  "price": 60.00,
+                  "img": "/images/hidratacaoEcuidados/hidratanteFacialMaxLove.jpg",
+                  "alt": "Imagem ilustrativa do produto" 
+            }
       ]
 }

@@ -11,6 +11,7 @@ const Home = () => {
             <SimpleSlider />
             <ProductCard produtos="lancamentos"/>
             <ProductCard produtos="maquiagem"/>
+            <ProductCard produtos="hidratacao"/>
             <Footer/>
         </div>
     )

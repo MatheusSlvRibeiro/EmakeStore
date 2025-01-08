@@ -66,13 +66,17 @@ const Navbar = () => {
                         alt="Logo Emake"/></a>
                   
                   <div className={Styles.ulBarIcons}>
-                        <a href="/account">
+                        <a href="/conta">
                               <i className="ri-user-line"></i>
                               <span>Conta</span>
                         </a>
-                        <a href="/cart">
+                        <a href="/sacola">
                               <i className="ri-shopping-bag-line"></i>
                               <span>Sacola</span>
+                        </a>
+
+                        <a className={Styles.favButton} href="/conta/favoritos">
+                              <i className="ri-heart-line"></i>
                         </a>
                   </div>
             </header>
