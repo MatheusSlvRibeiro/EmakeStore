@@ -22,18 +22,15 @@ const Product = () => {
               hidratacao,
             };
 
-      const categoryTitle = {
-              lancamentos: "Últimos lançamentos",
-              maquiagem: "Maquiagem",
-              hidratacao: "Hidratação e Cuidados",
-            }[category] || "Produtos";
-
       useEffect(() => {
             const products = productData[category]?.products || [];
             const foundProduct = products.find((item) => item.cod === cod);
             setProduct(foundProduct || null);
             setLoading(false);
       }, [category, cod]);
+
+      const formatPrice = (price) => price.toFixed(2).replace(".", ",");
+
 
       if (loading){
             return <p>Carregando...</p>
@@ -48,6 +45,8 @@ const Product = () => {
                   </article>
 
       }
+
+      const productUrl = `${window.location.origin}/produtos/${category}/${product.cod}`;
 
       return(
             <article>
@@ -67,7 +66,7 @@ const Product = () => {
                                     <div className={styles.asideInfo}>
                                           <span className={styles.productTitle}>{product.name}</span>
                                           <span className={styles.productBrand}>{product.brand}</span>
-                                          <h3 className={styles.productPrice}>R$ {product.price}</h3>
+                                          <h3 className={styles.productPrice}>R$ {formatPrice(product.price)}</h3>
                                     </div>
 
                                     <p className={styles.productDescription}>{product.description}</p>
@@ -85,10 +84,25 @@ const Product = () => {
 
                                     <div className={styles.socialIcons}>
                                           <p>Curtiu? Compartilhe!</p>
-                                          <i class="ri-instagram-line"></i>
-                                          <i class="ri-facebook-line"></i>
-                                          <i class="ri-twitter-line"></i>
-                                          <i class="ri-whatsapp-line"></i>
+                                          <a 
+                                                href={`https://wa.me/?text=${encodeURIComponent(`Confira este produto incrível: ${product.name}\n${productUrl}`)}`} 
+                                                target="_blank" 
+                                                rel="noopener noreferrer">
+                                                <i class="ri-whatsapp-line"></i>
+                                          </a>
+
+                                          <a 
+                                                href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(`Confira este produto incrível: ${product.name}\n${productUrl}`)}`} target="_blank" 
+                                                rel="noopener noreferrer">
+                                                <i class="ri-facebook-line"></i>
+                                          </a>
+
+                                          <a 
+                                                href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(`Confira este produto incrível: ${product.name}`)}&url=${encodeURIComponent(productUrl)}`} 
+                                                target="_blank" 
+                                                rel="noopener noreferrer">
+                                                <i class="ri-twitter-line"></i>
+                                          </a>
                                     </div>
                               </aside>
 

@@ -25,6 +25,10 @@ const ProductCard = ({ produtos }) => {
       }[produtos] || "Produtos";
 
       const products = productData[produtos]?.products || [];
+
+      function formatPrice(price) {
+          return price.toFixed(2).replace('.', ',');
+      }
 return (
     <section className={styles.sectionContainer}>
       <h3 className={styles.sectionTitle}>{categoryTitle}</h3>
@@ -65,7 +69,7 @@ return (
               <div className={styles.productInfo}>
                 <span className={styles.productName}>{item.name}</span>
                 <span className={styles.productBrand}>{item.brand}</span>
-                <h3 className={styles.productPrice}>R$ {item.price}</h3>
+                <h3 className={styles.productPrice}>R$ {formatPrice(item.price)}</h3>
               </div>
             </SwiperSlide>
           ))}
