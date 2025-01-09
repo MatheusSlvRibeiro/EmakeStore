@@ -11,16 +11,17 @@ import ProductCard from "../../components/productCard/productCard";
 import Navbar from "../../components/navbar/navbar"
 import Footer from "../../components/footer/footer"
 
+const productData = {
+      lancamentos,
+      maquiagem,
+      hidratacao,
+      };
+      
 const Product = () => {
       const { cod, category } = useParams();
       const [ product, setProduct ] = useState(null);
       const [ loading, setLoading ] = useState(true);
 
-      const productData = {
-              lancamentos,
-              maquiagem,
-              hidratacao,
-            };
 
       useEffect(() => {
             const products = productData[category]?.products || [];
